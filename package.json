@@ -1,9 +1,9 @@
 {
   "name": "@mihanizm56/webpack-magic-redux-actions",
-  "version": "0.0.1-beta.1",
+  "version": "0.0.1-beta.2",
   "description": "boilerplate wildberries",
   "license": "MIT",
-  "main": "lib/index.js",
+  "main": "lib/loader.js",
   "homepage": "https://github.com/mihanizm56/webpack-magic-redux-actions#readme",
   "repository": {
     "type": "git",

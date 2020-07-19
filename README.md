@@ -7,14 +7,16 @@
 ### Example of usage
 
 ```javascript
-// actions.js (or actions.ts)
+// actions.js (or actions.ts) in dir /some-module/actions.js
 export const FETCH_PAYMENTS_ACTION_SAGA = 'FETCH_PAYMENTS_ACTION_SAGA';
+// 'FETCH_PAYMENTS_ACTION_SAGA' transforms to 'some-module_FETCH_PAYMENTS_ACTION_SAGA'
 export const fetchPaymentsActionSaga = payload => ({
   type: FETCH_PAYMENTS_ACTION_SAGA,
   payload,
 });
 
 export const SET_PAYMENTS_LOADING_START = 'SET_PAYMENTS_LOADING_START';
+// 'SET_PAYMENTS_LOADING_START' transforms to 'some-module_SET_PAYMENTS_LOADING_START'
 export const setPaymentsLoadingStartAction = () => ({
   type: SET_PAYMENTS_LOADING_START,
 });

@@ -1,6 +1,6 @@
 {
   "name": "@mihanizm56/webpack-magic-redux-actions",
-  "version": "0.0.1-beta.0",
+  "version": "0.0.1-beta.1",
   "description": "boilerplate wildberries",
   "license": "MIT",
   "main": "lib/index.js",
@@ -15,8 +15,8 @@
   "scripts": {
     "lint": "npx eslint ./config --ext .js --fix",
     "commit": "git add . && git commit --no-edit",
-    "release": "npm link && npm run commit && git push && npm publish --access=public",
-    "beta": "npm link && npm run commit && git push && npm publish --tag beta --access=public"
+    "release": "npm run commit && git push && npm publish --access=public",
+    "beta": "npm run commit && git push && npm publish --tag beta --access=public"
   },
   "dependencies": {},
   "devDependencies": {

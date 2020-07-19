@@ -1,6 +1,6 @@
 {
   "name": "@mihanizm56/webpack-magic-redux-actions",
-  "version": "0.0.1-beta.3",
+  "version": "0.0.1-beta.4",
   "description": "boilerplate wildberries",
   "license": "MIT",
   "main": "lib/loader.js",
@@ -44,6 +44,8 @@
     }
   },
   "files": [
-    "lib/index.js"
+    "lib/loader.js",
+    "lib/plugin.js",
+    "lib/loader-config.js"
   ]
 }

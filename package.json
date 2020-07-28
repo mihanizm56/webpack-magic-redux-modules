@@ -4,13 +4,13 @@
   "description": "webpack redux utils",
   "license": "MIT",
   "main": "lib/loader.js",
-  "homepage": "https://github.com/mihanizm56/webpack-magic-redux-actions#readme",
+  "homepage": "https://github.com/mihanizm56/webpack-magic-redux-modules#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mihanizm56/webpack-magic-redux-actions.git"
+    "url": "git+https://github.com/mihanizm56/webpack-magic-redux-modules.git"
   },
   "bugs": {
-    "url": "https://github.com/mihanizm56/webpack-magic-redux-actions/issues"
+    "url": "https://github.com/mihanizm56/webpack-magic-redux-modules/issues"
   },
   "scripts": {
     "lint": "npx eslint ./config --ext .js --fix",

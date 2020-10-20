@@ -1,6 +1,6 @@
 {
   "name": "@mihanizm56/webpack-magic-redux-modules",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "webpack redux utils",
   "license": "MIT",
   "main": "lib/loader.js",

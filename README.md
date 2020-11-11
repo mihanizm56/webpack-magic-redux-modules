@@ -20,7 +20,7 @@ const constantsRegExp = /_?constants\.[jt]s$/;
 ### Example of usage
 
 ```javascript
-// actions.js (or .ts) in dir /some-module/actions.js
+// actions.js (or .ts) in dir redux/some-module/actions.js
 export const FETCH_PAYMENTS_ACTION_SAGA = 'FETCH_PAYMENTS_ACTION_SAGA';
 // 'FETCH_PAYMENTS_ACTION_SAGA' transforms to 'some-module_FETCH_PAYMENTS_ACTION_SAGA'
 export const fetchPaymentsActionSaga = payload => ({
@@ -36,13 +36,13 @@ export const setPaymentsLoadingStartAction = () => ({
 ```
 
 ```javascript
-// reducer.js (or .ts) in dir /some-module/reducer.js
+// reducer.js (or .ts) in dir redux/some-module/reducer.js
 export const REPORT_INFO_REDUCER_NAME = 'REPORT_INFO_REDUCER_NAME';
 // 'REPORT_INFO_REDUCER_NAME' transforms to 'some-module_REPORT_INFO_REDUCER_NAME'
 ```
 
 ```javascript
-// load-details-list-table-watcher-saga.js (or .ts) in dir /some-module/load-details-list-table-watcher-saga.js.js
+// load-details-list-table-watcher-saga.js (or .ts) in dir redux/some-module/load-details-list-table-watcher-saga.js.js
 export const LOAD_DETAILS_LIST_TABLE_WATCHER_SAGA =
   'LOAD_DETAILS_LIST_TABLE_WATCHER_SAGA';
 // 'LOAD_DETAILS_LIST_TABLE_WATCHER_SAGA' transforms to 'some-module_LOAD_DETAILS_LIST_TABLE_WATCHER_SAGA'
@@ -63,3 +63,4 @@ module.exports = {
 };
 ```
 
+### Be careful - all redux modules must be placed in dir "redux" or "_redux"

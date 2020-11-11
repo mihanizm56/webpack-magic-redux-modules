@@ -13,6 +13,8 @@ const actionsRegExp = /actions\.[jt]s$/;
 const reducersRegExp = /reducer\.[jt]s$/;
 // for sagas
 const sagasRegExp = /saga\.[jt]s$/;
+// for constants
+const constantsRegExp = /_?constants\.[jt]s$/;
 ```
 
 ### Example of usage
